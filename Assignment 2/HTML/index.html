@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 9.2 - Front End Web Development Fundamentals</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Bootstrap related script files -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!--Bootstrap container for default padding etc. -->
+	<div class="container">
+		<h1>Tutorial to demonstrate responsive tables using Bootstrap</h1><br>
+		<!-- Div to make table responsive -->
+		<div class="table-responsive">
+			<!--Using bordered table -->
+			<table class="table table-bordered">
+    			<thead>
+      				<tr class="row">
+      				<!--Colspan 4 as required for medium devices -->
+        			<th class="col-md-4">Firstname</th>
+        			<th class="col-md-4">Lastname</th>
+        			<th class="col-md-4">Email</th>
+        			</tr>
+    			</thead>
+    			<tbody>
+      				<tr class="row">
+        		 	<td class="col-md-4">Anna</td>
+        			<td class="col-md-4">Pitt</td>
+        			<td class="col-md-4">A.Pitt@xyz.com</td>
+        			</tr>
+        			<tr class="row">
+        		 	<td class="col-md-4">Myra</td>
+        			<td class="col-md-4">Pitt</td>
+        			<td class="col-md-4">M.Pitt@xyz.com</td>
+        			</tr>
+        			<tr class="row">
+        		 	<td class="col-md-4s">Tia</td>
+        			<td class="col-md-4">Pitt</td>
+        			<td class="col-md-4">T.Pitt@xyz.com</td>
+        			</tr>
+    			</tbody>
+  			</table>
+		</div>
+	</div>
+
+</body>
+</html>
